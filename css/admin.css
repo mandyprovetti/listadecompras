@@ -1,0 +1,56 @@
+@charset UTF-8;
+body {
+    margin: 0;
+    padding: 0;
+	}
+	
+.conteudo{
+    margin: 0 auto;
+    width: 980px;
+	}
+
+.btn {
+	margin: 0 0 0 15px;
+	}
+	
+.form-control.select, .form-control {
+	width: 300px;
+}
+
+.bg-success {
+	padding: 15px;
+}
+
+.msg {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logo img {
+	width: 100px;
+}
+
+table {
+	margin-top: 15px;
+}
+
+.btn-cadastro {
+	margin-bottom: 10px;
+}
+
+.btn-gravar {
+	margin: 0;
+}
+
+.btn-esconder {
+	display: none;
+}
+
+.form-control.error {
+	border-color: #B80000 ;
+}
+
+.form-horizontal {
+    margin-top: 20px;
+    overflow: hidden;
+}

@@ -1,0 +1,12 @@
+<?PHP
+			$id = $_GET["id"];
+			
+			include "Conexao.php";
+				$sql = "DELETE FROM TB_PRODUTOS where prd_id ='".$id."'";
+				$result = mysqli_query($conexao, $sql ) 
+				or die ("Não foi possível executar a exclusão.");
+				if ($result) 
+					echo "Dados excluídos com sucesso!<br>";
+				
+				
+?>

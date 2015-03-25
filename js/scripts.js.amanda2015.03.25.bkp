@@ -1,0 +1,13 @@
+var Formulario = {
+	init : function() {
+		$('.form-horizontal').validate({
+			errorPlacement: function(error,element) {
+				return true;
+			 }
+		});
+	}
+};
+
+$(document).ready(function(){
+	Formulario.init();
+});
